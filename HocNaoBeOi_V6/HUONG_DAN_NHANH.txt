@@ -1,0 +1,24 @@
+HỌC NÀO BÉ ƠI! V4 — HƯỚNG DẪN NHANH
+
+1. Giải nén ZIP. Mở thư mục có server.py, engine.py và static.
+2. Windows: nhấp đúp CHAY_TREN_WINDOWS.bat.
+3. Hoặc VS Code: mở server.py → Ctrl+Shift+P → Python: Run Python File in Terminal.
+4. Mở http://localhost:8000 . Giữ cửa sổ Python/Terminal mở.
+5. Admin: cohoa. Mật khẩu hiện khi chạy lần đầu, hoặc xem data/TAI_KHOAN_BAN_DAU.txt.
+6. Muốn thử không mật khẩu: nút Ban giám khảo trải nghiệm ở trang đăng nhập.
+
+THỨ TỰ NHẬP DỮ LIỆU THẬT
+Trường/Năm học → Khối → Cấp tài khoản giáo viên → Tạo lớp/phân công → Thêm học sinh → Tạo học liệu → Giao bài → Xem kết quả/nhận xét.
+
+Học sinh mới: mã tự sinh; tài khoản gia đình bằng mã; mật khẩu là 4 số cuối mã (giữ cả số 0 ở đầu). Sau khi tạo, cô gửi riêng thông tin cho đúng gia đình.
+
+AI cần cấu hình endpoint/model/API key trong Cài đặt bằng tài khoản admin. Chưa có key thì vẫn dùng tạo thủ công hoặc nhập JSON. Không có AI/API miễn phí được cài sẵn.
+
+Link game ngoài chỉ ghi được điểm nếu game hỗ trợ kết nối. Có game HTML mẫu trong samples. Điểm ngoài cần cô xác nhận trước khi vào thi đua.
+
+NẾU CÔ ĐÃ DÙNG V2
+Dừng V2, sao lưu thư mục data. Giải nén V4 riêng, chép data của V2 sang V4 rồi chạy. Tài khoản cohoa thành admin, giữ mật khẩu cũ. Không tự đổi tài khoản/mật khẩu phụ huynh cũ.
+
+Xem README.md để biết đầy đủ thao tác và giới hạn.
+
+BẢN V4: Xem HUONG_DAN_THU_AM.txt để thử thu âm và phát MP4 có tiếng. Nếu đã dùng V3, cũng sao lưu và chép data sang V4 trước khi chạy; tài khoản và dữ liệu được giữ.

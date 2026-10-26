@@ -1,0 +1,26 @@
+BẢN V5 — ẢNH MINH HỌA RIÊNG CỦA GIÁO VIÊN
+
+1. Đăng nhập giáo viên hoặc admin.
+2. Mở Game và bài tập / Nghe thơ truyện cùng bé / Giai điệu của bé.
+3. Tạo học liệu, hoặc chọn Sửa ở học liệu chưa giao.
+4. Ở phần Ảnh minh họa của cô, chọn ảnh PNG/JPG (tối đa 25 MB).
+5. Kiểm tra ảnh xem trước; chọn tệp MP3/MP4 và nội dung như bình thường.
+6. Bấm Lưu vào kho, sau đó Xem bài để kiểm tra và Giao bài.
+Ảnh xuất hiện ở thẻ kho, bài nghe/xem và màn hình game trắc nghiệm.
+Ảnh không thay tệp âm thanh/video, không tự chèn vào bên trong video hoặc game ngoài.
+Bỏ ảnh riêng / Dùng hình có sẵn rồi Lưu để quay về hình hệ thống.
+Bản này hỗ trợ một ảnh minh họa cho mỗi học liệu; không phải bộ trang truyện.
+Thu âm, nghe lại và nộp bài của phụ huynh giữ nguyên như V4.
+Học liệu đã giao được giữ nguyên để bảo toàn lịch sử: tạo học liệu mới nếu cần ảnh khác.
+
+NÂNG CẤP TỪ V4
+Dừng server bằng Ctrl+C. Sao lưu toàn bộ thư mục data.
+Giải nén V5 vào thư mục mới. Chép data cũ cạnh server.py và engine.py của V5.
+Chạy server.py bằng Python trong VS Code, mở http://localhost:8000, bấm Ctrl+F5.
+Không chạy hai bản cùng lúc trên một thư mục data.
+Nếu đã đưa lên host: cập nhật mã nguồn, giữ nguyên ổ lưu dữ liệu và SCHOOL_DATA_DIR.
+Dữ liệu cũ tự bổ sung trường ảnh mới khi khởi động, không cần nhập lại.
+
+ĐÃ KIỂM TRA: API lưu ảnh, quyền truy cập theo học liệu, bỏ ảnh, định dạng ảnh,
+và các bài kiểm tra thu âm sẵn có. Chưa kiểm tra trực quan và micro trên máy cô;
+cần thử bằng tài khoản phụ huynh trên thiết bị thực tế trước khi sử dụng.

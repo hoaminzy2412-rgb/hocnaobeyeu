@@ -1,0 +1,43 @@
+HỌC NÀO BÉ ƠI! V4 — NGHE VÀ THU ÂM BÀI CỦA TRẺ
+
+A. NẾU CÔ ĐÃ DÙNG V3
+1. Dừng web cũ bằng Ctrl+C.
+2. Sao lưu toàn bộ thư mục data.
+3. Giải nén V4 riêng, chép data từ V3 sang cạnh server.py của V4.
+4. Chạy server.py bằng Python hoặc VS Code → Ctrl+Shift+P → Python: Run Python File in Terminal.
+5. Mở http://localhost:8000 và tải lại trang bằng Ctrl+F5 để nhận code mới.
+Tài khoản/mật khẩu và bài làm cũ được giữ.
+
+B. NGHE MP3 / MP4
+Mở bài → Phát có tiếng. Có nút Bật/Tắt tiếng và thanh Âm lượng.
+Nếu đang tắt tiếng, bấm Bật tiếng. Trên iPhone/iPad có thể cần dùng phím âm lượng trên máy.
+Nếu video gốc không có tiếng thì nút âm lượng không thể tạo tiếng mới.
+
+C. THU BÀI CÔ GIAO
+1. Đăng nhập phụ huynh → Bài cô giao → Mở bài cho con → chọn bé → Bắt đầu.
+2. Bấm Bắt đầu thu âm → Cho phép dùng micro.
+3. Cho trẻ đọc thơ, kể chuyện hoặc hát. Có thể Tạm dừng / Tiếp tục.
+4. Bấm Dừng và nghe lại. Micro được tắt.
+5. Bấm Phát có tiếng ở bản thu để nghe lại; có thể Thu lại hoặc Tải bản thu về máy.
+6. Bấm Gửi bài và bản thu cho cô.
+
+D. THU TỪ KHO THƠ TRUYỆN / ÂM NHẠC
+Mở học liệu → chọn bé → Mở phần thu âm và nộp bài.
+Nếu cô đã giao bài đó, bản thu gửi vào bài đã giao.
+Nếu chưa giao, đây là bài tự luyện của gia đình, cô vẫn nhận được nhưng không tự tính thi đua.
+
+E. GIÁO VIÊN NGHE BÀI
+Chi tiết bài làm → tìm bé → phần Bài thu của bé → Phát có tiếng.
+Có thể tải bản thu về và viết nhận xét như bình thường.
+
+F. NẾU KHÔNG THU ĐƯỢC
+- Web cần HTTPS hoặc localhost; HTTP bằng địa chỉ IP thường không mở micro được.
+- Bố mẹ cần Cho phép micro. Kiểm tra quyền của Chrome/Edge/Safari và quyền micro trong hệ điều hành.
+- Đóng ứng dụng khác đang giữ micro nếu báo thiết bị bận.
+- Có thể thu bằng ứng dụng của máy rồi dùng Đính kèm thêm tệp để nộp.
+- Hỗ trợ bản thu M4A, WebM, OGG theo trình duyệt; cũng nhận MP3/WAV từ thiết bị.
+- Mỗi tệp tối đa 25 MB; web yêu cầu tự dừng sau khoảng 10 phút.
+- Bản thu chưa nộp chưa được lưu trên máy chủ. Cần gửi bài hoặc tải về trước khi đóng trang.
+
+KIỂM TRA TRƯỚC KHI DÙNG VỚI TRẺ
+Thử một video có tiếng, một bản thu thật và mở nghe bằng tài khoản cô giáo. Bộ kiểm tra tự động không thay cho thử micro/loa thật trên thiết bị của cô.

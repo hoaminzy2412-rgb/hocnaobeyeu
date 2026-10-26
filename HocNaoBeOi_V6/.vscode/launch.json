@@ -1,0 +1,6 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Chạy Học nào bé ơi!", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/server.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal", "env": {"SCHOOL_OPEN_BROWSER": "1"}}
+  ]
+}

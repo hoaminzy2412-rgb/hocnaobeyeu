@@ -1,0 +1,18 @@
+{
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "asset": "static/assets/garden-game.webp",
+      "prompt": "Use case: stylized-concept. Asset type: background illustration for an interactive Vietnamese preschool quiz game. A charming polished 3D cartoon magical garden, landscape 16:9, warm morning light. Cute smiling yellow honeybee with tiny backpack hovering in upper left, adorable white rabbit on lower left, a small friendly fox and blue bird at lower right, rounded daisies, lush grass, pink mushrooms, gentle rainbow and soft clouds. Premium soft 3D animated movie rendering, friendly large eyes, vivid cheerful pastel colors, dimensional glossy materials. Very important layout: all characters around the far edges, leave middle 60 percent clear with very pale cream blue sky and low detail grass for HTML question and large answer buttons. No text, no letters, no numerals, no interface, no buttons, no watermark. Crisp, lovely, inviting for children age 3–6."
+    },
+    {
+      "asset": "static/assets/ocean-game.webp",
+      "prompt": "A wide landscape 3D cartoon illustration of a cheerful underwater coral garden. A friendly orange fish at the far left, a smiling green turtle near the lower left, a small pink octopus at the far right, tiny bubbles and blue fish around the upper edges. Soft pastel turquoise water, warm sunlight rays, rounded colorful coral, high-quality toy-like 3D rendering, happy gentle mood. Keep the central half mostly empty pale blue water for overlaying a game interface later. No text or numbers, no logos, no watermark."
+    },
+    {
+      "asset": "static/assets/music-game.webp",
+      "prompt": "Use case: stylized-concept. Asset type: illustration for a preschool poetry, story and singing activity page. Landscape 16:9, high quality charming 3D cartoon little woodland music stage. A cuddly teddy bear with tiny microphone near left edge, adorable white rabbit holding open storybook at lower left, smiling little duck with toy drum at lower right, colorful music notes floating along top edges, soft clouds and pastel rainbow, star decorations. Gentle sunny atmosphere, rounded toy-like forms, friendly expressive faces, detailed soft glossy 3D animation rendering. Leave middle 60 percent bright, pale ivory and very low detail for actual HTML audio/video controls and recording buttons. No text, no lettering, no numerals, no interface, no logos or watermarks."
+    }
+  ],
+  "processing": "Generated PNG assets converted to WebP at original pixel dimensions for web delivery."
+}

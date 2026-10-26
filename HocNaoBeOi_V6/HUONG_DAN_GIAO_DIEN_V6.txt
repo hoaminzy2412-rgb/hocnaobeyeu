@@ -1,0 +1,29 @@
+BẢN V6 — GIAO DIỆN MẦM NON 3D
+Ảnh sân trường cô cung cấp dùng cho banner và màn hình đăng nhập.
+Arial chữ lớn, nút rõ, thẻ học liệu có cảnh 3D riêng. Ảnh cô tải lên vẫn ưu tiên.
+Giữ nguyên mã chức năng V5, gồm quản lý, AI, giao bài, tin nhắn, nghe/xem, thu âm.
+
+CÁCH 1: CHỈ THAY GIAO DIỆN TRONG V5 (KHUYÊN DÙNG NẾU ĐANG DÙNG V5)
+Dừng web bằng Ctrl+C, sao lưu thư mục web. Giải nén V6, chép đúng ba tệp
+sau từ V6 vào vị trí tương ứng của V5, chọn Replace khi được hỏi:
+static/index.html
+static/preschool-v6.css
+static/assets/school-welcome-3d.webp
+Không đổi server.py, app.js hoặc data. Chạy lại web như cũ, nhấn Ctrl+F5.
+
+CÁCH 2: CHẠY NGUYÊN BỘ V6
+1. Dừng web cũ (Ctrl+C). Sao lưu nguyên thư mục data.
+2. Giải nén V6 vào thư mục mới.
+3. Chép data cũ vào HocNaoBeOi_V6, cạnh server.py và engine.py.
+4. VS Code > File > Open Folder > HocNaoBeOi_V6.
+5. Mở server.py > Ctrl+Shift+P > Python: Run Python File in Terminal.
+6. Mở http://localhost:8000, nhấn Ctrl+F5.
+Không chạy hai bản cùng lúc trên cùng thư mục dữ liệu.
+Nếu đã lên host: cập nhật ba tệp giao diện trên, giữ ổ dữ liệu, triển khai lại.
+
+KIỂM TRA
+Thử trên máy tính và điện thoại: menu, chữ, thẻ game, ảnh riêng,
+nghe MP3/MP4, thu âm và nộp bài bằng vai phụ huynh.
+Đã đối chiếu mã chức năng giữ nguyên và chạy đạt 9 nhóm kiểm tra máy chủ.
+Chưa kiểm tra trực quan trên trình duyệt và micro thực tế trong môi trường này.
+Cần thử trên thiết bị của cô trước khi chia sẻ.
